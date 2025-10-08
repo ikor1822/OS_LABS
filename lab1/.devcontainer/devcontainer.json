@@ -1,0 +1,26 @@
+{
+    "name": "LAB1",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "appPort": [],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "vscode.cpptools-extension-pack",
+                "ms-vscode.cmake-tools", 
+                "llvm-vs-code-extensions.vscode-clangd"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "/bin/bash"
+                    }
+                }
+            }
+        }
+    }
+}
